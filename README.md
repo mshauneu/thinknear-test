@@ -4,6 +4,8 @@ System that assigns students to classes.
 URL to Swagger API spec is `http://localhost:7777/v2/api-docs`.
 Swagger Plugin for Chrome could be found at: `https://chrome.google.com/webstore/detail/swagger-ui-console/ljlmonadebogfjabhkppkoohjkjclfai?hl=en`
 
+## Test:
+`mvn test`
 ## Build:
 `mvn package`
 ## Run:
@@ -112,4 +114,4 @@ Below example  of  exception raised when we  try to assign user to  course that 
 		"message":"Student with id: S_1 already enrolled to course with code: C_2"
 	}
 
-For detailed information about `status`, `reason` and `conflict` values see API swagger doc for every endpoint's call. 
+For detailed information about `status`, `reason` and `error` values see API swagger doc for every endpoint's call. 
