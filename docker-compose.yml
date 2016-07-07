@@ -1,0 +1,9 @@
+thinknear-test:
+  build: .
+  ports:
+    - "7777:7777"
+  environment:
+    SERVICE_7777_NAME: communication
+    SERVICE_7777_TAGS: http,edge-api
+    SERVICE_7777_CHECK_HTTP: /internal/manage/health
+

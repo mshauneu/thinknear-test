@@ -1,0 +1,15 @@
+# Logging
+logging.level:
+  com.thinknear: DEBUG
+  io.swagger: ERROR
+
+# Server
+server:
+  port: 7777
+  context-path: /
+
+# Management Context
+management:
+  context-path: /internal/manage
+
+
